@@ -34,16 +34,18 @@ header{
     border: 1px solid black;
 }
 .search{
-    background-image: url('./imgs/magnify.svg');
+    /* background-image: url('./imgs/magnify.svg'); */
     width: 3rem;
-    height: 2rem;
+    height: 2.2rem;
     border: none;
+    background: transparent;
 }
 .status{
-    background-image: url('./imgs/map-marker-outline.svg');
+    /* background-image: url('./imgs/map-marker-outline.svg'); */
     width: 3rem;
-    height: 2rem;
+    height: 2.1rem;
     border: none;
+    background: transparent;
 }
 .cityNameInput{
     width: 100%;
@@ -58,3 +60,88 @@ header{
 .cityNameInput:focus{
     outline: none;
 }
+
+.main{
+    margin: 2.4 rem auto;
+}
+.country-day{
+    text-align: initial;
+    border-bottom: 2px solid black;
+    padding-bottom: 1.2rem;
+}
+
+.temp-container{
+    text-align: initial;
+    border-bottom: 2px solid black;
+}
+.temp{
+    font-size: 5rem;
+}
+.desc{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.city-country{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.day{
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 2px 0;
+}
+
+.extra{
+    padding-top: 1.5rem;
+}
+.feels-like,
+.humidity{
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.feels-like{
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+.humidity{
+    padding-left: 5px;
+}
+
+.error{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.hide{
+    visibility: hidden;
+}
+
+
+
+
+.clear-sky {
+    background: #e0eafc;
+    background: -webkit-linear-gradient(to top, #cfdef3, #e0eafc);
+    background: linear-gradient(to top, #cfdef3, #e0eafc);
+  }
+  
+  .cloud {
+    background: #e0eafc;
+    background: linear-gradient(to top, #3498db, #e0f7fa);
+  }
+  
+  .mist {
+    background: #304352;
+    background: -webkit-linear-gradient(to top, #304352, #d7d2cc);
+    background: linear-gradient(to top, #304352, #d7d2cc);
+  }
+  
+  .rain {
+    background: #73c8a9;
+    background: -webkit-linear-gradient(to bottom, #73c8a9, #373b44);
+    background: linear-gradient(to bottom, #73c8a9, #373b44);
+  }
+  
+  .snow {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  }
