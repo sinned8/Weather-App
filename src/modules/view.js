@@ -2,7 +2,7 @@ import {today} from './utils/dayName.js';
 
 function showError(err){
     let errorContainer = document.querySelector('.error')
-    errorContainer.textContent = ''
+    errorContainer.textContent = ""
     errorContainer.textContent = err
     errorContainer.classList.remove('hide')
 }
